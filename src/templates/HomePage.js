@@ -4,10 +4,21 @@ import { graphql } from 'gatsby'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
+import BgVideo from '../components/BgVideo'
+
+
+
 
 // Export Template for use in CMS preview
-export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
+export const HomePageTemplate = ({ title, subtitle, featuredImage, body,  video, videoPoster, videoTitle, }) => (
   <main className="Home">
+    {
+      //Baackground Video
+    }
+      <BgVideo/>
+    {
+      //Header Home page
+    }
     <PageHeader
       large
       title={title}
@@ -49,3 +60,4 @@ export const pageQuery = graphql`
     }
   }
 `
+

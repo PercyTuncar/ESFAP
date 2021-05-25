@@ -31,6 +31,8 @@ html {
   font-size: 62.5%;
   min-height: 100%;
   background: var(--lightGrey);
+  overflow-x: hidden ;
+
 }
 
 body {

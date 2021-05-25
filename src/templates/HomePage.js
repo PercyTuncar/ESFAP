@@ -5,6 +5,7 @@ import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
 import BgVideo from '../components/BgVideo'
+import Slider from '../components/Slider'
 
 
 
@@ -16,6 +17,10 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body,  video,
       //Baackground Video
     }
       <BgVideo/>
+      {
+      //Slider
+    }
+      <Slider/>
     {
       //Header Home page
     }

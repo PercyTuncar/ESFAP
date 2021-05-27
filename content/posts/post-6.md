@@ -1,9 +1,9 @@
 ---
 template: SinglePost
-title: Man
+title: Webinar LAS 4 LÍNEAS DE INVESTIGACIÓN DE LA FAP
 status: Published
 date: '2018-05-25'
-featuredImage: 'https://ucarecdn.com/bd5d1edc-73be-488a-9d50-8ec28f5ab6a9/'
+featuredImage: 'https://www.camara.es/sites/default/files/blog/webinar.jpg'
 excerpt: >-
   This is placeholder text that our web designers put here to make sure words
   appear properly on your website. This text is going to be replaced once the
@@ -14,6 +14,12 @@ meta:
   title: test meta title
 ---
 
-This is placeholder text that our web designers put here to make sure words appear properly on your website. This text is going to be replaced once the website is completed. You are currently reading text that is written in English, not any other language.
+Webinar: “LAS 4 LÍNEAS DE INVESTIGACIÓN DE LA FAP”
 
-Be careful not to waste too much time reading placeholder text! This text isn’t going to remain here because it doesn't pertain to the website. This paragraph has been copied from a program that automatically generates paragraphs like this. It is useful for web designers to use placeholder text so they can easily see what different fonts look like on a realistic paragraph.
+Como parte de las actividades académicas de la Escuela Superior de Guerra Aérea, los invitamos al Webinar: “LAS 4 LÍNEAS DE INVESTIGACIÓN DE LA FAP”
+
+Enero 26, 2021 - 15:00 hrs.
+
+Google Meet: https://meet.google.com/ebk-pbeh-vyn
+
+![jalalala](https://esfap.edu.pe/images/webinar.png "stest")

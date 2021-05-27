@@ -1,9 +1,9 @@
 ---
 template: SinglePost
-title: Yellow Van
+title: Lamentamos informar el fallecimiento del Comodoro Máximo Robertson
 status: Published
 date: '2018-05-25'
-featuredImage: 'https://ucarecdn.com/a7f36998-7a41-4a63-b0b1-91ef46cd638b/'
+featuredImage: 'https://esfap.edu.pe/images/WhatsAppImage2021-03-05at125646.jpeg'
 excerpt: >-
   This is placeholder text that our web designers put here to make sure words
   appear properly on your website. This text is going to be replaced once the
@@ -14,6 +14,8 @@ meta:
   title: test meta title
 ---
 
-This is placeholder text that our web designers put here to make sure words appear properly on your website. This text is going to be replaced once the website is completed. You are currently reading text that is written in English, not any other language.
+La Escuela Superior de Guerra Aérea lamenta informar el fallecimiento del Comodoro Máximo Robertson, que se desempeñó como catedrático y asesor de esta Escuela Superior de Guerra Aérea (ESFAP), lamentamos profundamente su partida y las condolencias a su familia, amigos y su Fuerza Aérea.
 
-Be careful not to waste too much time reading placeholder text! This text isn’t going to remain here because it doesn't pertain to the website. This paragraph has been copied from a program that automatically generates paragraphs like this. It is useful for web designers to use placeholder text so they can easily see what different fonts look like on a realistic paragraph.
+La ESFAP expresa sus más sentidas condolencias por la partida de nuestro compañero de armas que pertenecía a la Fuerza Aérea Argentina, con la cual se mantiene una permanente e histórica relación de amistad y hermandad.
+
+![jalalala](https://esfap.edu.pe/images/WhatsAppImage2021-03-05at125646.jpeg "stest")

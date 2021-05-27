@@ -1,6 +1,6 @@
 ---
 template: SinglePost
-title: Chairs
+title: Deploy de posts
 status: Featured / Published
 date: '2018-03-27'
 featuredImage: >-

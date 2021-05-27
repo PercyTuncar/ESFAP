@@ -1,10 +1,10 @@
 ---
 template: SinglePost
-title: River
+title: ESCUELA SUPERIOR DE GUERRA AÉREA
 status: Published
 date: '2018-05-25'
 featuredImage: >-
-  https://ucarecdn.com/d6ad4f3e-40a1-49cf-8cf0-f06a25d08544/-/crop/1690x1484/0,882/-/preview/
+  https://esfap.edu.pe/media/k2/items/cache/184b7cb84d7b456c96a0bdfbbeaa5f14_L.jpg?t=20210423_221446
 excerpt: >-
   This is placeholder text that our web designers put here to make sure words
   appear properly on your website. This text is going to be replaced once the
@@ -15,6 +15,12 @@ meta:
   title: test meta title
 ---
 
-This is placeholder text that our web designers put here to make sure words appear properly on your website. This text is going to be replaced once the website is completed. You are currently reading text that is written in English, not any other language.
+ESCUELA SUPERIOR DE GUERRA AÉREA LLEVO A CABO LAS PRIMERAS SUSTENTACIONES DE TESIS DEL PRESENTE AÑO DE LOS BACHILLERES EDUARDO FERNANDO RIOS SOSA Y JAVIER BARRANTES CARRASCO.
 
-Be careful not to waste too much time reading placeholder text! This text isn’t going to remain here because it doesn't pertain to the website. This paragraph has been copied from a program that automatically generates paragraphs like this. It is useful for web designers to use placeholder text so they can easily see what different fonts look like on a realistic paragraph.
+![jalalala](https://esfap.edu.pe/media/k2/items/cache/184b7cb84d7b456c96a0bdfbbeaa5f14_L.jpg?t=20210423_221446 "stest")
+
+El 07 de enero del año 2021 en la Escuela Superior de Guerra Aérea se llevó a cabo la primeras sustentaciones de las Tesis del presente año, tituladas: La Inteligencia de Redes y las Operaciones y Acciones Militares de la Fuerza Aérea del Perú, año 2020 y Monitoreo del Espectro Electromagnético y las Operaciones Aéreas del componente Aéreo del Comando Especial del VRAEM, año 2015, realizadas por los bachilleres Eduardo Rios Sosa y Javier Barrantes Carrasco, a fin de obtener el Grado Académico de Maestro en Doctrina y Administración Aeroespacial.
+
+Culminando el acto de sustentación, y luego de haber absuelto las preguntas formuladas por los miembros de jurado Calificador se dio por culminada la Sustentación de Tesis; procediéndose a la deliberación y calificación dicha tesis, con nota Aprobado Muy Bueno.
+
+![jalalala](https://esfap.edu.pe/images/WhatsAppImage2021-01-15at1027232.jpeg "stest")

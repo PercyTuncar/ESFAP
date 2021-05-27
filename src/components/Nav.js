@@ -6,6 +6,8 @@ import Logo from './Logo'
 import { Icon } from 'rsuite';
 import { Dropdown } from 'rsuite';
 import { ButtonToolbar } from 'rsuite';
+import Btn from './Btn'
+
 
 import './Nav.css'
 import "rsuite/dist/styles/rsuite-default.css";
@@ -129,15 +131,7 @@ export class Navigation extends Component {
             </div>
             <NavLink to="/default/">Default</NavLink>
             <NavLink to="/contact/">Contact</NavLink>
-
-
-            <ul>
-              <li><a href="#">Servicios</a><ul>
-                  <li><a href="#">Servicio A</a></li>
-                  <li><a href="#">Servicio B</a></li>
-                  <li><a href="#">Servicio C</a></li>
-              </ul></li>
-            </ul>
+            <Btn/>
 
 
 

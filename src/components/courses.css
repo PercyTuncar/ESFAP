@@ -6,9 +6,11 @@
 .section-courses{
     margin-top: 100px;
 background-color: #1B2831;
-box-shadow: 20px 0px 20px rgba(0, 0, 0, 0.16);
+box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.08);
 padding: 50px 0 50px 0;
-
+}
+.section-courses:hover{
+  box-shadow: 20px 0px 20px rgba(0, 0, 0, 0.16);
 }
 .cards_container{
     width: 80%;

@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap');
+
+.section-heading {
+    width: 100%;
+    text-align: center;
+}
+.section-heading h2{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Squada One', cursive;
+    font-size: 44px;
+    color: #FBA905;
+    margin-bottom: 0;
+}
+.section-heading p{
+    font-family: 'Squada One', cursive;
+    font-size: 24px;
+    color: #C8CDD0;
+    margin: auto;
+}
+.wrapper_content{
+    margin-top: 20px;
+    padding: 10px;
+    width: 80%;
+    background-color: #1B2831;
+    height: auto;
+    margin-left: 10%;
+    border-radius: 10px;
+     -webkit-box-shadow: -1px -1px 17px -2px #131a1f; 
+    box-shadow: -1px -1px 17px -2px #131a1f;
+    display: flow-root;
+}
+.product-img {
+    display: inline-block;
+    float: left;
+}
+.product-info {
+    display: flow-root;
+    padding: 0 0 0 30px;
+}
+.product-img img {
+    width: 550px;
+    border-radius: 8px;
+}
+.product-info h1{
+    margin: 0;
+    font-family: 'Squada One', cursive;
+    font-size: 44px;
+    color: #C8CDD0;
+}
+.product-info h2{
+    margin: 0;
+    font-family: 'Fredoka One', cursive;
+    font-size: 24px;
+    color: #FBA905;
+}
+.product-info p{
+    color: #a0a7ac;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px
+}

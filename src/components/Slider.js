@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import '../components/homeSlider.css';
+import Zoom from 'react-reveal/Zoom';
 
 export default class SimpleSlider extends Component {
   render() {
@@ -15,10 +16,10 @@ export default class SimpleSlider extends Component {
     };
     return (
       <div className="homeSlider">
-        <h2> Single Item</h2>
         <Slider {...settings}>
+      
           <div className="sliderContent">
-            <h3>AD MAJOREM PATRIAE GLORIAM</h3>
+          <Zoom>  <h3>AD MAJOREM PATRIAE GLORIAM</h3>  </Zoom>
           </div>
           <div className="sliderContent">
             <h3>PERFECCIONAMIENTO PROFESIONAL</h3>

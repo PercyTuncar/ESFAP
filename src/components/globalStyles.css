@@ -1,5 +1,5 @@
 :root {
-  --primary: #00c2bd;
+  --primary: #00CBFF;
   --secondary: #000;
   --lightGrey: whitesmoke;
   --midGrey: #cacaca;
@@ -39,7 +39,7 @@ body {
   font-family: var(--font-system);
   min-height: 100%;
   position: relative;
-  background: white;
+  background: #192229;
   color: var(--secondary);
   font-size: 1.6em;
   font-weight: 400;

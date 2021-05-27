@@ -3,8 +3,12 @@ import { Location } from '@reach/router'
 import { Link } from 'gatsby'
 import { Menu, X } from 'react-feather'
 import Logo from './Logo'
+import { Icon } from 'rsuite';
+import { Dropdown } from 'rsuite';
+import { ButtonToolbar } from 'rsuite';
 
 import './Nav.css'
+import "rsuite/dist/styles/rsuite-default.css";
 
 export class Navigation extends Component {
   state = {
@@ -68,10 +72,24 @@ export class Navigation extends Component {
             aria-label="Navigation"
             role="button"
           >
-            <Logo />
+           <div className="Nav_logo">
+           <Logo />
+           </div>
           </Link>
           <div className="Nav--Links">
-            <NavLink to="/">Home</NavLink>
+            <NavLink to="/"> <Icon icon='home' size="lg" /></NavLink>
+            <ButtonToolbar>
+              <Dropdown title="Nosotros" activeKey="e-1">
+              <Dropdown.Menu title="Dirección">
+                  <Dropdown.Item eventKey="e-1">Saludo del Director</Dropdown.Item>
+                  <Dropdown.Item eventKey="e-1">Galería de Directores</Dropdown.Item>
+                </Dropdown.Menu>
+                <Dropdown.Item eventKey="Historia">Historia</Dropdown.Item>
+                <Dropdown.Item eventKey="Heraldica">Heraldica</Dropdown.Item>
+                <Dropdown.Item eventKey="Organizacion">Organización</Dropdown.Item>
+                <Dropdown.Item eventKey="Normatividad">Normatividad</Dropdown.Item>
+              </Dropdown>
+            </ButtonToolbar>
             <NavLink to="/components/">Components</NavLink>
             <div
               className={`Nav--Group ${

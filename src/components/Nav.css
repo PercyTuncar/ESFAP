@@ -7,12 +7,15 @@
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.025);
   position: fixed;
   width: 100%;
+  color: aliceblue;
+  height: 70px;
+  border-bottom: #006DC6;
 }
 
 .Nav--Container {
   display: flex;
   align-items: center;
-  height: 6rem;
+  height: 7rem;
 }
 
 .Nav--Links {
@@ -20,6 +23,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  margin-left: auto;
 }
 
 .Nav--Links > * + * {
@@ -27,8 +31,9 @@
 }
 
 .Nav .Logo {
-  margin-right: 3rem;
+  margin-right: 2rem;
   position: relative;
+  height: auto;
 }
 
 .Nav--MenuButton {
@@ -129,7 +134,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: white;
+    background: #282D31;
     animation: Nav--Links 0.2s ease;
   }
 
@@ -203,4 +208,32 @@
   from {
     opacity: 0;
   }
+}
+
+.Nav_logo{
+  display: flex;
+}
+.Nav_logo h1{
+ margin-bottom: 0;
+ font-size: 24px;
+ color: white;
+}
+.Nav_logo h2{
+  font-size: small;
+  color: white;
+  margin-top: -30px;
+}
+.rs-dropdown-item:hover{
+  background-color: #00ccff6b;
+}
+.rs-dropdown-toggle, .rs-dropdown-toggle.rs-btn {
+  position: relative;
+  z-index: 5;
+  padding-right: 32px;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  color: azure;
+  font-weight: 500;
+  font-size:16px
 }

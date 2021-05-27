@@ -6,6 +6,8 @@ import Content from '../components/Content'
 import Layout from '../components/Layout'
 import BgVideo from '../components/BgVideo'
 import Slider from '../components/Slider'
+import Fap from '../components/Fap'
+import Courses from '../components/Courses'
 
 
 
@@ -21,15 +23,30 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body,  video,
       //Slider
     }
       <Slider/>
+
+
+      {
+      //FAP
+      }
+      <Fap/>
+      {
+      //Cursos y Diplomados
+      }
+      <Courses/>
+
     {
       //Header Home page
     }
-    <PageHeader
-      large
-      title={title}
-      subtitle={subtitle}
-      backgroundImage={featuredImage}
-    />
+
+    {
+     //  <PageHeader
+     //  large
+     //  title={title}
+     //  subtitle={subtitle}
+     //  backgroundImage={featuredImage}
+     //  />
+    }
+   
 
     <section className="section">
       <div className="container">

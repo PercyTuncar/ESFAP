@@ -7,6 +7,7 @@ import Layout from '../components/Layout'
 import BgVideo from '../components/BgVideo'
 import Slider from '../components/Slider'
 import Fap from '../components/Fap'
+import ProgramasDeEstudio from '../components/ProgramasDeEstudio'
 import Courses from '../components/Courses'
 
 
@@ -34,6 +35,10 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body,  video,
       }
       <Courses/>
 
+      {
+      //Programas de estudio
+      }
+      <ProgramasDeEstudio/>
     {
       //Header Home page
     }

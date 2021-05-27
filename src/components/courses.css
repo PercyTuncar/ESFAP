@@ -6,6 +6,9 @@
 .section-courses{
     margin-top: 100px;
 background-color: #1B2831;
+box-shadow: 20px 0px 20px rgba(0, 0, 0, 0.16);
+padding: 50px 0 50px 0;
+
 }
 .cards_container{
     width: 80%;

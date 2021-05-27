@@ -4,9 +4,10 @@ import { Link } from 'gatsby'
 import { Menu, X } from 'react-feather'
 import Logo from './Logo'
 import { Icon } from 'rsuite';
-import { Dropdown } from 'rsuite';
-import { ButtonToolbar } from 'rsuite';
-import Btn from './Btn'
+import NosotrosMenu from './NosotrosMenu'
+import ProgramasMenu from './ProgramasMenu'
+import PlataformasVirtualesMenu from './PlataformasVirtualesMenu'
+import PublicacionesMenu from './PublicacionesMenu'
 
 
 import './Nav.css'
@@ -79,20 +80,15 @@ export class Navigation extends Component {
            </div>
           </Link>
           <div className="Nav--Links">
-            <NavLink to="/"> <Icon icon='home' size="lg" /></NavLink>
-            <ButtonToolbar>
-              <Dropdown title="Nosotros" activeKey="e-1">
-              <Dropdown.Menu title="Dirección">
-                  <Dropdown.Item eventKey="e-1">Saludo del Director</Dropdown.Item>
-                  <Dropdown.Item eventKey="e-1">Galería de Directores</Dropdown.Item>
-                </Dropdown.Menu>
-                <Dropdown.Item eventKey="Historia">Historia</Dropdown.Item>
-                <Dropdown.Item eventKey="Heraldica">Heraldica</Dropdown.Item>
-                <Dropdown.Item eventKey="Organizacion">Organización</Dropdown.Item>
-                <Dropdown.Item eventKey="Normatividad">Normatividad</Dropdown.Item>
-              </Dropdown>
-            </ButtonToolbar>
-            <NavLink to="/components/">Components</NavLink>
+            <NosotrosMenu/>
+            <ProgramasMenu/>
+            <PlataformasVirtualesMenu/>
+            <PublicacionesMenu/>
+          
+            {
+  //<NavLink to="/components/">Components</NavLink>
+            }
+          
             <div
               className={`Nav--Group ${
                 this.state.activeSubNav === 'posts' ? 'active' : ''
@@ -112,7 +108,7 @@ export class Navigation extends Component {
                 aria-label="Navigation"
                 role="button"
               >
-                Blog
+                Noticias
                 <div className="Nav--GroupLinks">
                   <NavLink to="/blog/" className="Nav--GroupLink">
                     All Posts
@@ -129,9 +125,12 @@ export class Navigation extends Component {
                 </div>
               </span>
             </div>
-            <NavLink to="/default/">Default</NavLink>
-            <NavLink to="/contact/">Contact</NavLink>
-            <Btn/>
+            {
+ // <NavLink to="/default/">Default</NavLink>
+  //<NavLink to="/contact/">Contact</NavLink>
+            }
+          
+            
 
 
 

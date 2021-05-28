@@ -1,0 +1,9 @@
+.slick-next {
+    right: 0;
+}
+
+@media (max-width: 600px) {
+        .homeSlider{
+            margin-top: 0;
+        }
+    }

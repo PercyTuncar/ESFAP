@@ -30,7 +30,7 @@ html {
   box-sizing: border-box;
   font-size: 62.5%;
   min-height: 100%;
-  background: var(--lightGrey);
+  width: 100%;
   overflow-x: hidden ;
 
 }
@@ -173,6 +173,10 @@ blockquote {
 }
 
 @media (max-width: 600px) {
+  html {
+    overflow-x: hidden ;
+  }
+  
   .section {
     width: 100%;
     padding: 5rem 0;

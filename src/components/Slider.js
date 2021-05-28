@@ -4,6 +4,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import '../components/homeSlider.css';
 import Zoom from 'react-reveal/Zoom';
+import './slider.css'
+
 
 export default class SimpleSlider extends Component {
   render() {
@@ -15,7 +17,7 @@ export default class SimpleSlider extends Component {
       slidesToScroll: 1
     };
     return (
-      <div className="homeSlider">
+      <div className="homeSlider"  >
         <Slider {...settings}>
       
           <div className="sliderContent">

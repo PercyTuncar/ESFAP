@@ -10,49 +10,35 @@ import Fap from '../components/Fap'
 import ProgramasDeEstudio from '../components/ProgramasDeEstudio'
 import Courses from '../components/Courses'
 
+const fullScrean ={
+  with: '100%',
+  height: 'auto',
+
+}
 
 
 
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({ title, subtitle, featuredImage, body,  video, videoPoster, videoTitle, }) => (
   <main className="Home">
-    {
-      //Baackground Video
-    }
-      <BgVideo/>
-      {
-      //Slider
-    }
-      <Slider/>
+  <div style={fullScrean}>
+ 
+  <BgVideo/>
+  <Slider/>
+  <Fap/>
+  <Courses/>
+  <ProgramasDeEstudio/>
+  
+   {
+      //  <BgVideo/>
+      //  <Slider/>
+      //  <Fap/>
+      //  <Courses/>
+      //  <ProgramasDeEstudio/>
+   }
+     
 
-
-      {
-      //FAP
-      }
-      <Fap/>
-      {
-      //Cursos y Diplomados
-      }
-      <Courses/>
-
-      {
-      //Programas de estudio
-      }
-      <ProgramasDeEstudio/>
-    {
-      //Header Home page
-    }
-
-    {
-     //  <PageHeader
-     //  large
-     //  title={title}
-     //  subtitle={subtitle}
-     //  backgroundImage={featuredImage}
-     //  />
-    }
-   
-
+  </div>
     <section className="section">
       <div className="container">
         <Content source={body} />

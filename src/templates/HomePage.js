@@ -9,6 +9,8 @@ import Slider from '../components/Slider'
 import Fap from '../components/Fap'
 import ProgramasDeEstudio from '../components/ProgramasDeEstudio'
 import Courses from '../components/Courses'
+import VideoInstitucional from '../components/VideoInstitucional'
+import EnlacesDeInteres from '../components/EnlacesDeInteres'
 
 const fullScrean ={
   with: '100%',
@@ -28,7 +30,8 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body,  video,
   <Fap/>
   <Courses/>
   <ProgramasDeEstudio/>
-  
+  <VideoInstitucional/>
+  <EnlacesDeInteres/>
    {
       //  <BgVideo/>
       //  <Slider/>

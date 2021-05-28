@@ -1,0 +1,41 @@
+.enlaces_container{
+    width: 80%;
+    margin-left: 10%;
+
+}
+.col-four {
+    width: 20%;
+    float: left;
+    margin-right: 4%;
+    padding: 8px;
+    border-radius: 5px;
+}
+.col-four img{
+    padding: auto;
+    border-radius: 5px;
+    background: #212E36;
+margin-top: 10px;
+}
+.col-four:last-child {
+    margin-right: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+@media screen and (max-width : 1024px) {
+    .col-four {
+		width: 50%;
+		float: left;
+		margin-right: 0;
+		padding: 15px;
+	}
+}
+@media screen and (max-width : 767px) {
+    .col-four {
+		width: 100%;
+		float: none;
+		padding: 15px 0;
+	}
+}

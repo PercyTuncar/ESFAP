@@ -6,9 +6,9 @@ import './fap.css'
 class Fap extends Component {
   render() {
     return (
-      <div>
+      <div  className="section_headingDos">
         <Fade bottom>
-            <div className="section-heading">
+            <div className="section-heading section-headingDos">
                 <h2>FUERZA AÉREA DEL PERÚ</h2>
                 <p className="lead">La Fuerza de todos los peruanos</p>
                 <img src="https://firebasestorage.googleapis.com/v0/b/esfap-2021.appspot.com/o/Logo%2Ffap.png?alt=media&token=5f9c33eb-3e5f-4dbb-a093-2416c7bd0fae" alt="Logo Fuerza Aera del Peru"/>

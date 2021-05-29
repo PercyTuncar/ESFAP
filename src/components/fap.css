@@ -63,3 +63,22 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 16px
 }
+
+
+
+@media (max-width: 600px) {
+    .wrapper_content {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .product-info h1{
+        text-align: center;
+    }
+    .product-info {
+        display: flow-root;
+        padding: 0 0 0 1px;
+    }
+    .section_headingDos{
+        margin-top: 200px;
+    }
+}

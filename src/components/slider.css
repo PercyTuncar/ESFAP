@@ -4,6 +4,14 @@
 
 @media (max-width: 600px) {
         .homeSlider{
-            margin-top: 0;
+            margin-top: -230px;
+            margin-bottom: 60px;
+        }
+        .sliderContent{
+            height: 90px;
+        }
+        .slick-next {
+            right: 0;
+            display: none !important;
         }
     }

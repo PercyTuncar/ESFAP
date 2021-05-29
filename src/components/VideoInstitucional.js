@@ -15,6 +15,8 @@ export default function VideoInstitucional() {
 
                 <div className="video_container">
                 <div class="wrapper">
+           <h1 className="video_title">CONSULTAS VIRTUALES</h1>
+
                 <section class="columns">
                     
                     <div class="column">

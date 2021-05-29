@@ -21,7 +21,7 @@ class Fap extends Component {
                         </div>
                         <div className="product-info"> 
                       
-                                <h1>ESCUELA SUPERIOR DE GUERRA AÉREA</h1>
+                                <h1>ESCUELA SUPERIOR <br/>  DE GUERRA AÉREA</h1>
                                 <h2>Nuestra misión</h2>
                                 <p>Especializar y perfeccionar profesionalmente al 
                                     personal de Oficiales de la Fuerza Aérea del Perú, en 

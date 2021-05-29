@@ -11,9 +11,9 @@
     border-radius: 5px;
 }
 .col-four img{
-    padding: auto;
+    padding: 2px;
     border-radius: 5px;
-    background: #212E36;
+    background: #f0f0f0;
 margin-top: 10px;
 }
 .col-four:last-child {

@@ -69,6 +69,7 @@ img {
     overflow: hidden;
     width: 100%;
     margin-bottom: 10px;
+    display: table-row-group;
   }
   .card:hover {
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.16);
@@ -100,15 +101,15 @@ img {
 
   
   .card__image--1 {
-    background-image: url(https://www.itaerea.es/wp-content/uploads/heli-1024x630.jpg);
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/esfap-2021.appspot.com/o/Posters%2FSAR.png?alt=media&token=418851a9-ca5c-4404-a4da-3ebdae1e16be);
   }
   
   .card__image--2 {
-    background-image: url(https://blogbvelearning.files.wordpress.com/2016/08/investigacion-accidentes-laborales.jpg);
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/esfap-2021.appspot.com/o/Posters%2FINVAC.png?alt=media&token=159c71a1-64f1-48d7-8941-2ee884fd17ce);
   }
   
   .card__image--3 {
-    background-image: url(https://plini.files.wordpress.com/2011/03/sec3b1alizacic3b3n.jpg);
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/esfap-2021.appspot.com/o/Posters%2FPREVAC.png?alt=media&token=91d4ec46-8606-4ab6-ad1f-31844040f327);
   }
   
   .card__title {
@@ -140,3 +141,16 @@ img {
     color: #FBA905;
     margin-bottom: 0;
   }
+
+
+.card__content span {
+  width: 100%;
+  text-align: center;
+}
+
+
+@media (max-width: 400px) {
+  .card__content .card__titleUno{
+    margin-top: 15px;
+  }
+}

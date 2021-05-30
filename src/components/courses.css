@@ -151,6 +151,21 @@ img {
 
 @media (max-width: 400px) {
   .card__content .card__titleUno{
-    margin-top: 15px;
+   
   }
+}
+
+
+.course_card_columns{
+  width: 90%;
+  margin-left: 5%  !important;
+}
+.course_card{
+  background-color: #212E36;
+  box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.08);
+  margin: 10px !important;
+  border-radius: 12px
+}
+.course_card:hover{
+  box-shadow: 20px 0px 20px rgba(0, 0, 0, 0.16);
 }

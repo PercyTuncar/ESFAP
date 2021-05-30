@@ -2,7 +2,7 @@
 
 
 .video_container{
-    margin-top: -350px;
+    margin-top: -250px;
 }
 .video-responsive {
     width: 60%;
@@ -98,15 +98,15 @@ footer {
 
 
 .paper {
-    margin: 10vh auto;
     min-width: 20vw;
     max-width: 60vh;
     min-height: 20vh;
-    border-radius: 4px;
+    border-radius: 12px;
     box-shadow: 0 15px 35px rgba(50, 50, 90, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
     transition: 0.6s ease;
-    background: #212E36;
     text-align: center;
+    border:1px solid  #fba9053b ;
+    padding: 20px;
   }
   .paper h1 {
         font-family: 'Anton', sans-serif;
@@ -120,9 +120,9 @@ footer {
     transform: translateY(-1px);
   }
   
-  img {
-    max-width: 100%;
-    max-height: 100%;
+  .paper img {
+    max-width: 100px;
+    max-height: 100px;
   }
   
   .poster {
@@ -160,9 +160,10 @@ footer {
   
   .btn_virtual,
   a.btn_virtual:hover {
-    background: #7C66FF;
+    background: transparent;
     box-shadow: 0 7px 14px rgba(48, 51, 54, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
     transform: translateY(-1px);
+    border: 1px solid #006DC6;
   }
   
   .btn_virtual,
@@ -171,6 +172,3 @@ footer {
     transform: translateY(1px);
   }
   
-  .space {
-    height: 4vh;
-  }

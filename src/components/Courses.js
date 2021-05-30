@@ -18,12 +18,10 @@ class Courses extends Component {
                 <p className="lead">Cursos y diplimados</p>
             </div>
     
-            <div  className="cards_container">
-                <ul className="cards">
-                        <li className="cards__item">
-                        <a href="#">
-                            <div className="card">
-                            <div className="card__image card__image--1"></div>
+        <section class="columns course_card_columns">
+                    
+                    <div class="column course_card">
+                    <div className="card__image card__image--1"></div>
                             <div className="card__content">
                                 <div className="card__title">SAR</div>
                                 <p className="card__text">Administración del sistema de búsqueda y salvamento aeronáutico (sar)</p>
@@ -31,36 +29,31 @@ class Courses extends Component {
                              
                          
                             </div>
-                            </div>
-                        </a>
-                        </li>
-                        <li className="cards__item">
-                        <a href="#">
-                        <div className="card">
-                            <div className="card__image card__image--2"></div>
+                    </div>
+                    
+                    <div class="column course_card">
+                    <div className="card__image card__image--2"></div>
                             <div className="card__content">
                             <div className="card__title">INVAC</div>
                             <p className="card__text">Diplomado en investigación de accidentes (invac).</p>
                             <span>   <Button color="yellow" appearance="ghost" >Ver más</Button></span>
                             </div>
-                        </div>
-                        </a>
-                    </li>
-                    <li className="cards__item">
-                        <a href="#">
-                        <div className="card">
-                            <div className="card__image card__image--3"></div>
+                    </div>
+                
+                <div class="column course_card">
+                <div className="card__image card__image--3"></div>
                             <div className="card__content">
                             <div className="card__title">PREVAC</div>
                             <p className="card__text">Diplomado en prevención de accidentes (prevac).</p>
                             <span>   <Button color="yellow" appearance="ghost" >Ver más</Button></span>
                             </div>
-                        </div>
-                        </a>
-                    </li>
-                    </ul>
-            </div>
-           
+                    </div>
+                    
+                </section>	
+
+
+
+                
            
       </div>
     );

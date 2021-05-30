@@ -4,6 +4,8 @@ import { StaticQuery, graphql } from 'gatsby'
 import Meta from './Meta'
 import Nav from './Nav'
 import Footer from './Footer'
+import FooterPage from './FooterPage'
+
 import GithubCorner from './GithubCorner'
 
 import 'modern-normalize/modern-normalize.css'
@@ -81,6 +83,8 @@ export default ({ children, meta, title }) => {
 
             <Fragment>{children}</Fragment>
 
+
+            <FooterPage/>
             <Footer />
           </Fragment>
         )

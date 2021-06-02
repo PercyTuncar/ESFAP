@@ -25,9 +25,9 @@ export default function NosotrosMenu() {
                 <MenuItem href="/GaleriaDeDirectoresPage">Galería de Directores</MenuItem> 
             </SubMenu>
             <MenuItem href="/historia">História</MenuItem>
-            <MenuItem>Heraldica</MenuItem>
-            <MenuItem>Organización</MenuItem>
-            <MenuItem>Normatividad</MenuItem>
+            <MenuItem href="/heraldica">Heraldica</MenuItem>
+            <MenuItem href="/organizacion">Organización</MenuItem>
+            <MenuItem href="/normatividad">Normatividad</MenuItem>
         </Menu>
     );
 }

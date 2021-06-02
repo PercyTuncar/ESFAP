@@ -82,7 +82,6 @@ export class Navigation extends Component {
            </div>
           </Link>
           <div className="Nav--Links">
-          <NavLink to="/faq" activeClassName="selected">FAQs</NavLink>
            
             <NosotrosMenu/>
             <ProgramasMenu/>

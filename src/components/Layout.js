@@ -54,6 +54,9 @@ export default ({ children, meta, title }) => {
 
         return (
           <Fragment>
+            
+
+        
             <Helmet
               defaultTitle={siteTitle}
               titleTemplate={`%s | ${siteTitle}`}
@@ -83,7 +86,11 @@ export default ({ children, meta, title }) => {
 
             <Fragment>{children}</Fragment>
 
+            <Helmet>
+              <script src="https://kit.fontawesome.com/a076d05399.js" type="text/javascript" />
+            <script src="./DropDown.js" type="text/javascript" />
 
+            </Helmet>
             <FooterPage/>
             <Footer />
           </Fragment>

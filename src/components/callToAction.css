@@ -1,0 +1,12 @@
+.callToAction_container {
+    margin-top: 400px;
+    z-index: 10000000;
+    width: 150px;
+    height: auto;
+    background: #f0f0f0;
+    color: #2c2c2e;
+    position:fixed; bottom:40px; right:40px;
+    padding: 10px;
+    border-radius: 10px;
+}
+

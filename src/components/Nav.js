@@ -8,7 +8,7 @@ import NosotrosMenu from './NosotrosMenu'
 import ProgramasMenu from './ProgramasMenu'
 import PlataformasVirtualesMenu from './PlataformasVirtualesMenu'
 import PublicacionesMenu from './PublicacionesMenu'
-
+import {Helmet} from "react-helmet";
 
 import './Nav.css'
 import "rsuite/dist/styles/rsuite-default.css";
@@ -19,6 +19,7 @@ export class Navigation extends Component {
     activeSubNav: false,
     currentPath: false
   }
+  
 
   componentDidMount = () =>
     this.setState({ currentPath: this.props.location.pathname })
@@ -65,6 +66,7 @@ export class Navigation extends Component {
       )
 
     return (
+      
       <nav className={`Nav ${active ? 'Nav-active' : ''}`}>
         <div className="Nav--Container container">
           <Link
@@ -80,14 +82,24 @@ export class Navigation extends Component {
            </div>
           </Link>
           <div className="Nav--Links">
+          <NavLink to="/faq" activeClassName="selected">FAQs</NavLink>
+           
             <NosotrosMenu/>
             <ProgramasMenu/>
             <PlataformasVirtualesMenu/>
             <PublicacionesMenu/>
           
+
+
+
+
+
+ 
             {
   //<NavLink to="/components/">Components</NavLink>
             }
+
+            
           
             <div
               className={`Nav--Group ${

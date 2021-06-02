@@ -11,6 +11,8 @@ import ProgramasDeEstudio from '../components/ProgramasDeEstudio'
 import Courses from '../components/Courses'
 import VideoInstitucional from '../components/VideoInstitucional'
 import EnlacesDeInteres from '../components/EnlacesDeInteres'
+import CallToAction from '../components/CallToAction'
+
 
 const fullScrean ={
   with: '100%',
@@ -27,6 +29,8 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body,  video,
  
   <BgVideo/>
   <Slider/>
+ <CallToAction/>
+
   <Fap/>
   <Courses/>
   <ProgramasDeEstudio/>

@@ -20,7 +20,7 @@ const FichaTecnica = () => (
                 <li>Créditos Académicos: 64</li>
                 <li>Duración: (11) meses</li>
             </ul>
-            <h1>HORARIO CLASES</h1>
+            <h1 className="h1">HORARIO CLASES</h1>
             <ul>
                 <li>Lunes a viernes 14:00 – 19:00 horas.</li>
             </ul>

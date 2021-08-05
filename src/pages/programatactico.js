@@ -52,7 +52,7 @@ const programatactico = () => (
 	<p class="masthead-intro">ESCUELA SUPERIOR DE GUERRA AÉREA</p> 
 	<h1 class="masthead-heading">PROGRAMA TÁCTICO</h1>
 </header>
-
+<div className="container">
 <img src="https://esfap.edu.pe/images/2020/01/29/pt2.png" alt="Insignia de alto mando"/> 
 
 <Tabs defaultActiveKey="1" onChange={callback}>
@@ -101,8 +101,9 @@ Afronta con flexibilidad dinámicas cambiantes, propone soluciones innovadoras y
     
   </Tabs>
   <Divider />
-
-  <Collapse defaultActiveKey={['1']} onChange={callback}>
+</div>
+<div className="container">
+<Collapse defaultActiveKey={['1']} onChange={callback}>
         <Panel header="FICHA TÉCNICA" key="1">
             <ul>
                 <li>Metodología: Profundización </li>
@@ -110,7 +111,7 @@ Afronta con flexibilidad dinámicas cambiantes, propone soluciones innovadoras y
                 <li>Créditos Académicos:  34</li>
                 <li>Duración: (06) meses - 2 cursos al año</li>
             </ul>
-            <h1>HORARIO CLASES</h1>
+            <h1 className="h1">HORARIO CLASES</h1>
             <ul>
                 <li>Lunes a viernes 14:00 – 19:00 horas.</li>
             </ul>
@@ -118,8 +119,12 @@ Afronta con flexibilidad dinámicas cambiantes, propone soluciones innovadoras y
         </Panel>
     </Collapse>,
  
- <img src="https://firebasestorage.googleapis.com/v0/b/esfap-2021.appspot.com/o/PROGRAMA%20TACTICO_page-0001.png?alt=media&token=44bc6f22-54b4-42a4-bb29-448dfacad7b5" alt="Imagen de programa tactico"/>
-  </Layout>
+ <img className="img_mando"   src="https://firebasestorage.googleapis.com/v0/b/esfap-2021.appspot.com/o/PROGRAMA%20TACTICO_page-0001.png?alt=media&token=44bc6f22-54b4-42a4-bb29-448dfacad7b5" alt="Imagen de programa tactico"/>
+  
+</div>
+
+
+ </Layout>
 )
 
 export default programatactico

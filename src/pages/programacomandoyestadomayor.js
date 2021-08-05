@@ -52,6 +52,7 @@ const programacomandoyestadomayor = () => (
 	<p class="masthead-intro">ESCUELA SUPERIOR DE GUERRA AÉREA</p> 
 	<h1 class="masthead-heading">PROGRAMA COMANDO Y ESTADO MAYOR</h1>
 </header>
+<div className="container">
 
 <img src="https://esfap.edu.pe/images/2017/03/29/a_insigpam.png" alt="Insignia de alto mando"/> 
 
@@ -89,9 +90,10 @@ const programacomandoyestadomayor = () => (
     </TabPane>
     
   </Tabs>
-  <Divider />
-
-  <Collapse defaultActiveKey={['1']} onChange={callback}>
+ 
+</div>
+<div className="container">
+<Collapse defaultActiveKey={['1']} onChange={callback}>
         <Panel header="FICHA TÉCNICA" key="1">
             <ul>
                 <li>Metodología: Profundización </li>
@@ -107,8 +109,11 @@ const programacomandoyestadomayor = () => (
         </Panel>
     </Collapse>,
 
-<img src="https://firebasestorage.googleapis.com/v0/b/esfap-2021.appspot.com/o/PROGRAMA%20ESTADO%20MAYOR_page-0001.png?alt=media&token=5a994592-cf0e-4642-b7aa-ac733ab4dc2b" alt="imagen del comando"/>
-<img src="https://esfap.edu.pe/images/2021/02/16/pcem1-2.png" alt="segunda imagen del comando"/>
+</div> <Divider />
+
+
+<img className="img_mando" src="https://firebasestorage.googleapis.com/v0/b/esfap-2021.appspot.com/o/PROGRAMA%20ESTADO%20MAYOR_page-0001.png?alt=media&token=5a994592-cf0e-4642-b7aa-ac733ab4dc2b" alt="imagen del comando"/>
+<img className="img_mando" src="https://esfap.edu.pe/images/2021/02/16/pcem1-2.png" alt="segunda imagen del comando"/>
   </Layout>
 )
 

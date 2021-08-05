@@ -52,7 +52,7 @@ const programaestadomayorparaoficiales = () => (
 	<p class="masthead-intro">ESCUELA SUPERIOR DE GUERRA AÉREA</p> 
 	<h1 class="masthead-heading">PROGRAMA COMANDO Y ESTADO MAYOR OFICIALES DE SERVICIO</h1>
 </header>
-
+<div className="container">
 <img src="https://esfap.edu.pe/images/2017/07/18/pemos01.fw.png" alt="Insignia de alto mando"/> 
 
 <Tabs defaultActiveKey="1" onChange={callback}>
@@ -75,24 +75,29 @@ const programaestadomayorparaoficiales = () => (
     </TabPane>
     
   </Tabs>
-  <Divider />
 
-  <Collapse defaultActiveKey={['1']} onChange={callback}>
-        <Panel header="FICHA TÉCNICA" key="1">
-            <ul>
-                <li>Metodología: Profundización </li>
-                <li>Modalidad: Virtual</li>
-                <li>Créditos Académicos:  64.5</li>
-                <li>Duración: (14) meses</li>
-            </ul>
-            <h1>HORARIO CLASES</h1>
-            <ul>
-                <li>Lunes a viernes 14:00 – 19:00 horas.</li>
-            </ul>
-        <p></p>
-        </Panel>
-    </Collapse>,
- 
+</div>
+<div className="container">
+<Divider />
+
+<Collapse defaultActiveKey={['1']} onChange={callback}>
+      <Panel header="FICHA TÉCNICA" key="1">
+          <ul>
+              <li>Metodología: Profundización </li>
+              <li>Modalidad: Virtual</li>
+              <li>Créditos Académicos:  64.5</li>
+              <li>Duración: (14) meses</li>
+          </ul>
+          <h1>HORARIO CLASES</h1>
+          <ul>
+              <li>Lunes a viernes 14:00 – 19:00 horas.</li>
+          </ul>
+      <p></p>
+      </Panel>
+  </Collapse>,
+
+</div>
+
   </Layout>
 )
 

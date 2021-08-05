@@ -15,14 +15,14 @@ export default function ProgramasMenu() {
     return (
         <Menu menuButton={<MenuButton className="header_menu">Programas <Icon icon='angle-down' size="lg" /></MenuButton>}>
              <SubMenu label="Perfeccionamiento Doctrinarios">
-                <MenuItem>Programa Alto Mando</MenuItem>
-                <MenuItem>Programa Comando y Estado Mayor</MenuItem>
-                <MenuItem>PPrograma Estado Mayor para Oficiales de Servicio</MenuItem>
-                <MenuItem>Programa Táctico </MenuItem>
+                <MenuItem href="/programaaltomando">Programa Alto Mando</MenuItem>
+                <MenuItem  href="/programacomandoyestadomayor">Programa Comando y Estado Mayor</MenuItem>
+                <MenuItem  href="/programaestadomayorparaoficiales">Programa Estado Mayor para Oficiales de Servicio</MenuItem>
+                <MenuItem href="/programatactico">Programa Táctico </MenuItem>
             </SubMenu>
             <SubMenu label="Perfeccionamiento Especializado">
-                <MenuItem>Programas FAP</MenuItem>
-                <MenuItem>Convenio ESFAP</MenuItem>
+                <MenuItem href="/programasfap">Programas FAP</MenuItem>
+                <MenuItem href="/ConvenioESFAP">Convenio ESFAP</MenuItem>
             </SubMenu>
             <MenuItem>Perfeccionamiento de Reclasificación</MenuItem>
             <MenuItem>Perfeccionamiento a Distancia</MenuItem>

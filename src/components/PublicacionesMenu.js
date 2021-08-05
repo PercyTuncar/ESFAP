@@ -13,12 +13,10 @@ import './nosotrosMenu.css'
 export default function PublicacionesMenu() {
     return (
         <Menu menuButton={<MenuButton className="header_menu">Publicaciones <Icon icon='angle-down' size="lg" /></MenuButton>}>
-            <MenuItem>Esfap virtual (chamilo)</MenuItem>
-            <MenuItem>Consulta de Notas</MenuItem>
-            <MenuItem>Repositorio ESFAP</MenuItem>
-            <MenuItem>Biblioteca Virtual</MenuItem>
-            <MenuItem>Google for education</MenuItem>
-            <MenuItem>Lecturas Virtuales ESFAP</MenuItem>
+            <MenuItem href="/acreditacion"  >Acreditación</MenuItem>
+            <MenuItem href="/blog"  >Noticias</MenuItem>
+            <MenuItem href="/revista"  >Revista Científica</MenuItem>
+            <MenuItem href="/videotutorial"  >Video Tutoriales</MenuItem>
         </Menu>
     );
 }

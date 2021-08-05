@@ -277,3 +277,66 @@ blockquote {
   display: block;
   margin: -10px 0 30px 0;
 }
+.line2{
+  width: 200px;
+  height: 2px;
+  background: #fba905;
+  border-bottom: 1px solid #f1f1f1;
+  display: block;
+  margin: -10px 0 30px 65px;
+}
+
+.container{
+  width: 92%;
+  margin: 0 auto;
+}
+.img_mando{
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.h1 li{
+  font-size: 20px;
+}
+
+.text_center{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  color: #fba905 !important;
+  padding: 15px;
+}
+.text_center h1{
+  color: #fba905 !important;
+}
+.contenedorDos{
+  display: flex;
+}
+.DosColumnas{
+  margin-top: 20px;
+  box-sizing: border-box;
+  width: 45%;
+  margin: 0 auto;
+  
+}
+
+.DosColumnas p{
+color: #f0f0f0;
+text-align: justify;
+}
+@media (max-width: 600px){
+  .contenedorDos{
+    display: block;
+  }
+  .contenedorDos h1{
+    font-size: 30px;
+  }
+  .DosColumnas{
+width: 95%;
+    
+  }
+}
+.revista img{
+  width: 180px;
+  padding: 5px;
+}

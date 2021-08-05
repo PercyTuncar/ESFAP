@@ -47,8 +47,10 @@ const programaaltomando = () => (
 	<p class="masthead-intro">ESCUELA SUPERIOR DE GUERRA AÉREA</p> 
 	<h1 class="masthead-heading">Programa Alto Mando</h1>
 </header>
-
-<img src="https://esfap.edu.pe/images/2017/03/29/a_insigpam.png" alt="Insignia de alto mando"/> 
+<div className="container">
+<img src="https://esfap.edu.pe/images/2017/03/29/a_insigpam.png" alt="Insignia de alto mando"/>
+</div>
+<div className="container">
 
 <Tabs defaultActiveKey="1" onChange={callback}>
     <TabPane tab="Alcance" key="1">
@@ -93,10 +95,19 @@ const programaaltomando = () => (
         <p>El Plan Curricular del Programa de Alto Mando ha sido diseñado en base a fundamentos conceptuales y normativos en los que se enmarcan la visión y la misión de la Fuerza Aérea del Perú, mediante el establecimiento de objetivos de corto, mediano y largo plazo, orientados a alcanzar las capacidades fundamentales y operacionales requeridas</p>
     </TabPane>
   </Tabs>
+
+</div> 
   <Divider />
-<FichaTecnica/>
-<img src="https://esfap.edu.pe/images/2021/02/16/pam1.png" alt="imagen del comando"/>
-<img src="https://esfap.edu.pe/images/2021/02/16/pam2.png" alt="segunda imagen del comando"/>
+  <div className="container">
+  <FichaTecnica/>
+  </div>
+
+  <div className="container">
+
+  <img className="img_mando" src="https://esfap.edu.pe/images/2021/02/16/pam1.png" alt="imagen del comando"/>
+  <img className="img_mando" src="https://esfap.edu.pe/images/2021/02/16/pam2.png" alt="segunda imagen del comando"/>
+</div>
+
   </Layout>
 )
 

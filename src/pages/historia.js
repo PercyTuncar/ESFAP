@@ -51,7 +51,7 @@ const Historia = () => (
 	<p class="masthead-intro">ESCUELA SUPERIOR DE GUERRA AÉREA</p> 
 	<h1 class="masthead-heading">HISTORIA</h1>
 </header>
- <h1>História</h1>
+ <h1 class="h1">História</h1>
 <div className="tabs">
     
 <Tabs defaultActiveKey="1" onChange={callback}>

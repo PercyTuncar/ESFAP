@@ -20,7 +20,7 @@ function callback(key) {
 }
 
 // Export Template for use in CMS preview Historia.css
-export const OrganizacionTemplate = ({
+export const PerfeccionamientoDoctrinariosTemplate = ({
   title,
   subtitle,
   featuredImage,
@@ -45,43 +45,23 @@ export const OrganizacionTemplate = ({
   </main>
 )
 
-const Organizacion = () => (
+const PerfeccionamientoDoctrinarios = () => (
   <Layout  >
 <header class="masthead">
 	<p class="masthead-intro">ESCUELA SUPERIOR DE GUERRA AÉREA</p> 
-	<h1 class="masthead-heading">ORGANIZACIÓN</h1>
+	<h1 class="masthead-heading">Perfeccionamiento Doctrinario</h1>
 </header>
- <h1 className="h1">ORGANIZACIÓN</h1>
+ <h1>ORGANIZACIÓN</h1>
 <div className="tabs">
-<h2 className="h2">MISIÓN DE LA ESFAP</h2>
-<span className="line"></span>
-<div className="texto">
-
-Especializar y perfeccionar profesionalmente al 
-personal de Oficiales de la Fuerza Aérea del Perú, en 
-concordancia con los objetivos institucionales y 
-educativos, mediante una cultura de calidad, investigación 
-e innovación educativa, a fin de lograr líderes con valores y 
-competencias adecuadas, capaces de conducir la Institución en 
-todos sus niveles de comando y otros organismos integrantes del 
-poder aeroespacial, militar y nacional.
-
-<h2 className="h2"> VISIÓN DE LA ESFAP </h2>
-<span className="line"></span>
+<h2>MISIÓN DE LA ESFAP</h2>
+Especializar y perfeccionar profesionalmente al personal de Oficiales de la Fuerza Aérea del Perú, en concordancia con los objetivos institucionales y educativos, mediante una cultura de calidad, investigación e innovación educativa, a fin de lograr líderes con valores y competencias adecuadas, capaces de conducir la Institución en todos sus niveles de comando y otros organismos integrantes del poder aeroespacial, militar y nacional.
+<h2> VISIÓN DE LA ESFAP </h2>
 Ser la Escuela de Posgrado de mayor prestigio en el ámbito Militar y Aeroespacial en el Perú y con presencia internacional.
-<img src="https://esfap.edu.pe/images/2020/06/19/logoesfap1.png"/>
-
-</div>
-
-
-<h2 className="h2">  ORGANIGRAMA</h2>
-<span className="line"></span>
-<div className="center">
+<h2>  ORGANIGRAMA</h2>
 <img src="https://esfap.edu.pe/images/2020/06/19/organigrama.png"/> 
-</div>
 </div>
  
   </Layout>
 )
 
-export default Organizacion
+export default PerfeccionamientoDoctrinarios

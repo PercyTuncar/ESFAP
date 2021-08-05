@@ -49,9 +49,9 @@ const Heraldica = () => (
   <Layout  >
 <header class="masthead">
 	<p class="masthead-intro">ESCUELA SUPERIOR DE GUERRA AÉREA</p> 
-	<h1 class="masthead-heading">HERÁLDICA</h1>
+	<h1 class="masthead-heading ">HERÁLDICA</h1>
 </header>
- <h1>HERÁLDICA</h1>
+ <h1 className="h1">HERÁLDICA</h1>
 <div className="tabs">
  
     El campo se encuentra cruzado por cuatro rayos dorados, agudos y penetrantes, dirigidos hacia los ángulos del escudo. Indican la vigilancia de los confines de nuestro territorio por las unidades de caza, bombardeo, reconocimiento y transporte. Asimismo éstos cuatro rayos y la espada dividen el campo azul en cinco partes, significando las regiones aéreas la parte inferior del campo está a su vez dividida en tres porciones.<br/>

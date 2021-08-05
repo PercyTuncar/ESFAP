@@ -82,6 +82,8 @@ const SaludoPage = () => (
 
 
           </p>
+          <span>Mayor General FAP</span>
+
           <h2> ANTONIO GARCIA FALCKENHEINER</h2>
           <h3>  DIRECTOR DE LA ESCUELA SUPERIOR DE GUERRA AÉREA</h3>
 

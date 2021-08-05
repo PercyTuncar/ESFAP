@@ -304,3 +304,6 @@
   .ant-tabs-tabpane{
         color: #a9a9a9 !important;
   }
+  .ant-tabs-tab-btn{
+    color: #fff;
+  }

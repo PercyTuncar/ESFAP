@@ -136,9 +136,7 @@ img {
 
 
 
-.section_programas{
-  margin: 60px 0 60px 0;
-}
+
 .content {
   display: flex;
   margin: 0 auto;
@@ -348,3 +346,15 @@ img {
   margin-left: 5%;
 }
 
+@media screen and (max-width: 800px) {
+  .section_programas{
+    margin: 400px 0 60px 0;
+  
+  }  
+}
+@media screen and (max-width: 400px) {
+  .section_programas{
+    margin: 180px 0 60px 0;
+  
+  }  
+}

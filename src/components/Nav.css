@@ -218,10 +218,11 @@
 .Nav_logo h1{
  margin-bottom: 0;
  font-size: 30px;
+ padding: 0 0 10px 0;
  color: #ffa81b !important;
 }
 .Nav_logo h2{
-  font-size: 15px;
+  font-size: 20px;
   color: #ffa81b !important;
   margin-top: -30px;
 }

@@ -10,7 +10,7 @@ export default () => (
     }}
   />
  <div> 
-    <h1>ESFAP</h1>
+    <h1>ESFAP</h1> <br></br>
     <h2>Escuela Superior de Guerra Aérea</h2>
  </div>
  

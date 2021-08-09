@@ -50,7 +50,7 @@ const SaludoPage = () => (
   <div class="features-inner">
 
     <div class="features-group">
-      <div class="features-image"><img src="https://esfap.edu.pe/images/2021/01/14/whatsapp-image-2021-01-14-at-14.25.28.jpeg"/></div>
+      <div class="features-image"><img src="https://firebasestorage.googleapis.com/v0/b/esfap-2021.appspot.com/o/slider%2Fmayor.png?alt=media&token=4ad79c94-db2a-4032-9d47-dd601803f512"/></div>
       <div class="features-text">
         <p>
           Bienvenidos a la Escuela Superior de Guerra Aérea, su Escuela. Es un honor para mí asumir la Dirección y un gran reto profesional el poder cumplir esta tarea asignada.
@@ -82,10 +82,7 @@ const SaludoPage = () => (
 
 
           </p>
-          <span>Mayor General FAP</span>
-
-          <h2> ANTONIO GARCIA FALCKENHEINER</h2>
-          <h3>  DIRECTOR DE LA ESCUELA SUPERIOR DE GUERRA AÉREA</h3>
+     
 
 
       </div>

@@ -53,10 +53,11 @@ const Heraldica = () => (
 </header>
  <h1 className="h1">HERÁLDICA</h1>
 <div className="tabs">
- 
-    El campo se encuentra cruzado por cuatro rayos dorados, agudos y penetrantes, dirigidos hacia los ángulos del escudo. Indican la vigilancia de los confines de nuestro territorio por las unidades de caza, bombardeo, reconocimiento y transporte. Asimismo éstos cuatro rayos y la espada dividen el campo azul en cinco partes, significando las regiones aéreas la parte inferior del campo está a su vez dividida en tres porciones.<br/>
+ <p>
+   
+ El campo se encuentra cruzado por cuatro rayos dorados, agudos y penetrantes, dirigidos hacia los ángulos del escudo. Indican la vigilancia de los confines de nuestro territorio por las unidades de caza, bombardeo, reconocimiento y transporte. Asimismo éstos cuatro rayos y la espada dividen el campo azul en cinco partes, significando las regiones aéreas la parte inferior del campo está a su vez dividida en tres porciones.<br/>
 
-    La izquierda contiene líneas onduladas y paralelas representando el mar; de la central emerge un conjunto de enormes piedras cortadas y pulidas, que como un macizo, configuran una fortaleza incaica abierta a tajos verticales; y el lado derecho representa un bosque.<br/>
+La izquierda contiene líneas onduladas y paralelas representando el mar; de la central emerge un conjunto de enormes piedras cortadas y pulidas, que como un macizo, configuran una fortaleza incaica abierta a tajos verticales; y el lado derecho representa un bosque.<br/>
 
 Cada porción con sus colores propios. Este conjunto simboliza las tres regiones naturales. <br/>
 Dentro del macizo, cuatro volúmenes con lomos en púrpura que denota grandeza y sabiduría, sus contenidos connotan conocimientos aeronáuticos militares y de cultura general. <br/>
@@ -70,8 +71,11 @@ Y todo el simbolismo del emblema de la ESFAP nos dice:<br/>
 "a lo largo y ancho del territorio nacional, con la grandeza y sabiduría que da el estudio, la obediencia y constancia del militar, en actitud firme y alerta está el oficial FAP vigilando el cielo de nuestra patria para cuidar de su soberanía."
 
 
-</div>
+ </p>
+ <img src="https://esfap.edu.pe/images/2020/06/19/logoesfap1.png"/>
  
+</div>
+
   </Layout>
 )
 

@@ -56,16 +56,19 @@ const Historia = () => (
     
 <Tabs defaultActiveKey="1" onChange={callback}>
     <TabPane tab="Reseña" key="1">
-    El rápido desarrollo de la Aeronáutica Militar del Perú, especialmente en los años inmediatamente anteriores y posteriores a la II Guerra Mundial planteó con carácter de urgencia la necesidad de adaptar la preparación del Personal de Oficiales a la problemática creada por el crecimiento del empleo del Arma Aérea, por la constante incorporación a sus actividades de equipos y materiales modernos y por la importancia cada vez mayor, que adquiría para el país, la Defensa Nacional. <br/>
+   <p>
+   El rápido desarrollo de la Aeronáutica Militar del Perú, especialmente en los años inmediatamente anteriores y posteriores a la II Guerra Mundial planteó con carácter de urgencia la necesidad de adaptar la preparación del Personal de Oficiales a la problemática creada por el crecimiento del empleo del Arma Aérea, por la constante incorporación a sus actividades de equipos y materiales modernos y por la importancia cada vez mayor, que adquiría para el país, la Defensa Nacional. <br/>
     Era indudable que, paralelamente a las adquisiciones de material, debía proporcionarse al Personal Superior de la Fuerza Aérea los elementos de capacitación profesional y técnica, indispensables para emplear eficientemente dicho material. El envío de Oficiales en misión de estudios para recibir Cursos de Perfeccionamiento o especialización en centros extranjeros de instrucción profesional, resultaba a todas luces insuficiente para resolver este problema en toda su magnitud, ya sea por razones de orden económico o por evidente inconveniencia de sustraer casi ininterrumpidamente de sus Unidades a grupos numerosos de Jefes y Oficiales. <br/>
     Estas condiciones creadas por el desarrollo de la Aviación Militar, sirvieron de fundamento para que durante el gobierno del Presidente Bustamante y Rivero con el D.S. Nº 43 expedido el 20 de Setiembre de 1946, se estableciera un centro militar de estudios superiores, con la denominación: "Academia de Guerra Aérea", bajo la dependencia del Estado Mayor General de Aeronáutica, para capacitar en el mejor desempeño de las altas funciones de Comando y Estado Mayor del Personal Superior FAP, que veía así materializada una de sus más importantes aspiraciones. <br/>
     La Academia de Guerra Aérea inició sus actividades, de conformidad con las disposiciones contenidas en la Resolución Suprema N° 131, del 06 de Marzo de 1947, orientándolas a través de tres fases perfectamente definidas. La primera fase comprendía la preparación y organización de las labores académicas y de los servicios necesarios para su cumplimiento. La segunda fase tenía como objetivo la ejecución de un "Curso Especial de Información" para el Personal Superior acerca de la Organización y Funcionamiento del Comando y Estado Mayor General de Aeronáutica y sus dependencias. En la tercera fase comenzarían a dictarse Cursos Regulares, conforme a los planes que se elaborasen en la etapa de preparación. <br/>
     Después de su inauguración el 22 de Agosto de 1947, la Academia de Guerra Aérea comenzó a funcionar en la Base Aérea "Alférez Huguet" (Ancón) por breve tiempo, continuando luego en Las Palmas en un Pabellón de la Escuela de Oficiales especialmente acondicionado, desarrollándose el primer Curso de Información. El año siguiente fue trasladada a Collique, donde se dictó el Primer Curso Táctico con el sistema de Instrucción denominado "Escuela de Cooperación Mutua". A partir de 1949 ocupó el Castillo Rospigliosi en Lince; el 1º de Marzo de 1962 se inauguró el Primer Curso de Alto Mando de la FAP. El 15 de Abril de 1991 inauguró sus nuevas instalaciones en el distrito de La Molina con una infraestructura, equipamiento y tecnología moderna. <br/>
     Por Decreto Ley N° 21165 complementado por el Decreto Supremo N° 021 del 08 de Setiembre de 1975, se cambia la denominación de Academía de Guerra Aérea (AGA) por la Escuela Superior de Guerra Aérea (ESFAP). <br/>
     En 1950 se graduó la Primera Promoción de Oficiales del Curso de Comando y Estado Mayor y ese mismo año, al cambiar el Cuerpo Aeronaútico del Perú (CAP) su denominación por la actual Fuerza Aérea del Perú (FAP), según lo dispuesto en el D.L. Nº 11471, y al establecerse el Centro de Instrucción de Aeronáutica, la Academia de Guerra Aérea integró esta última organización, conservando su alta jerarquía de Escuela de Estudios Superiores para el Personal de Oficiales de la Fuerza Aérea. <br/>
+   </p>
     </TabPane>
     <TabPane tab=" La Academia " key="2">
-    DECRETO SUPREMO Nº 43 <br/>
+   <p>
+   DECRETO SUPREMO Nº 43 <br/>
     EL PRESIDENTE DE LA REPUBLICA <br/>
     <br/>
     CONSIDERANDO: <br/>
@@ -83,6 +86,7 @@ const Historia = () => (
     <br/> <br/>
     (Fdo.) DOCTOR JOSE LUIS BUSTAMANTE Y RIVERO <br/>
     Presidente Constitucional del Perú <br/>
+   </p>
     </TabPane>
     <TabPane tab=" El Castillo " key="3">
         <p>

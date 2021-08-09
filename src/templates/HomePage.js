@@ -5,6 +5,7 @@ import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
 import BgVideo from '../components/BgVideo'
+import Carousel from '../components/Carousel'
 import Slider from '../components/Slider'
 import Fap from '../components/Fap'
 import ProgramasDeEstudio from '../components/ProgramasDeEstudio'
@@ -24,16 +25,19 @@ const fullScrean ={
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({ title, subtitle, featuredImage, body,  video, videoPoster, videoTitle, }) => (
   <main className="Home">
+    <div>
+    <Carousel/>
+    </div>
   <div style={fullScrean}>
- 
-  <BgVideo/>
-  <Slider/>
+
+
  <CallToAction/>
 
 {
   //  <Fap/>
+  //<Courses/>
 }
-  <Courses/>
+
   <ProgramasDeEstudio/>
   <VideoInstitucional/>
   <EnlacesDeInteres/>

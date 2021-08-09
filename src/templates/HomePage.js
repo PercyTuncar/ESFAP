@@ -13,7 +13,6 @@ import VideoInstitucional from '../components/VideoInstitucional'
 import EnlacesDeInteres from '../components/EnlacesDeInteres'
 import CallToAction from '../components/CallToAction'
 
-
 const fullScrean ={
   with: '100%',
   height: 'auto',
@@ -31,7 +30,9 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body,  video,
   <Slider/>
  <CallToAction/>
 
-  <Fap/>
+{
+  //  <Fap/>
+}
   <Courses/>
   <ProgramasDeEstudio/>
   <VideoInstitucional/>

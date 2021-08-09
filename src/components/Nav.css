@@ -1,5 +1,5 @@
 .Nav {
-  background: #006DC6;
+  background: #093968;
   position: sticky;
   top: 0;
   z-index: 2;
@@ -8,14 +8,15 @@
   position: fixed;
   width: 100%;
   color: aliceblue;
-  height: 70px;
-  border-bottom: #006DC6;
+  height: 90px;
+  border-bottom: #093968;
 }
 
 .Nav--Container {
   display: flex;
   align-items: center;
   height: 7rem;
+  margin-top: 10px !important;
 }
 
 .Nav--Links {
@@ -212,15 +213,16 @@
 
 .Nav_logo{
   display: flex;
+  color: #ffa81b  ;
 }
 .Nav_logo h1{
  margin-bottom: 0;
- font-size: 24px;
- color: white;
+ font-size: 30px;
+ color: #ffa81b !important;
 }
 .Nav_logo h2{
-  font-size: small;
-  color: white;
+  font-size: 15px;
+  color: #ffa81b !important;
   margin-top: -30px;
 }
 .rs-dropdown-item:hover{

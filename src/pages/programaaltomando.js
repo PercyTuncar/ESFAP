@@ -45,10 +45,10 @@ const programaaltomando = () => (
   <Layout  >
 <header class="masthead">
 	<p class="masthead-intro">ESCUELA SUPERIOR DE GUERRA AÉREA</p> 
-	<h1 class="masthead-heading">Programa Alto Mando</h1>
+	<h1 class="masthead-heading">PROGRAMA ALTO MANDO</h1>
 </header>
 <div className="container">
-<img src="https://esfap.edu.pe/images/2017/03/29/a_insigpam.png" alt="Insignia de alto mando"/>
+<img width="250px" src="https://firebasestorage.googleapis.com/v0/b/esfap-2021.appspot.com/o/Logo%2FESCUDO.jpeg?alt=media&token=58fd81e6-7dc7-4977-92d6-8b917e4f4eaa" alt="Insignia de alto mando"/>
 </div>
 <div className="container">
 

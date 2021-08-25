@@ -50,7 +50,7 @@ const SaludoPage = () => (
   <div class="features-inner">
 
     <div class="features-group">
-      <div class="features-image"><img src="https://firebasestorage.googleapis.com/v0/b/esfap-2021.appspot.com/o/slider%2Fmayor.png?alt=media&token=4ad79c94-db2a-4032-9d47-dd601803f512"/></div>
+      <div class="features-image"><img src="https://firebasestorage.googleapis.com/v0/b/esfap-2021.appspot.com/o/GRAL%20GARCIA.jpeg?alt=media&token=caa68eef-aa7b-4fac-ad9f-73161ef80751"/></div>
       <div class="features-text">
         <p>
           Bienvenidos a la Escuela Superior de Guerra Aérea, su Escuela. Es un honor para mí asumir la Dirección y un gran reto profesional el poder cumplir esta tarea asignada.

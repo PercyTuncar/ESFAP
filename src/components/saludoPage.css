@@ -53,7 +53,7 @@
   .features-text {
     grid-column: 3/span 2;
     grid-row: 1;
-    padding: 3rem 3rem 3rem 6rem;
+    padding: 3rem 3rem 3rem 0rem;
     place-self: center;
   }
   .features-text.inverted {

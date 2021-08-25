@@ -343,12 +343,23 @@ width: 95%;
 
 .carousel_home h1{
   font-weight: 800;
+  background: rgb(9 57 104 / 83%);
+  padding: 16px;
 }
 .carousel_home p{
   font-weight: 800;
   font-size: 20px;
+  background: rgb(9 57 104 / 83%);
+  padding: 16px;
+
 }
 p{
   font-size: 18px !important;
   color: #fff;
+}
+.rc-menu__submenu > .rc-menu__item{
+  font-size: 14px;
+}
+.rc-menu--animation .rc-menu__item {
+  font-size: 14px;
 }

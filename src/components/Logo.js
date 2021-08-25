@@ -6,7 +6,7 @@ export default () => (
 <div
     className="Logo"
     style={{
-      backgroundImage: `url(https://firebasestorage.googleapis.com/v0/b/esfap-2021.appspot.com/o/Logo%2Fesfap_cabezera_solax60a.png?alt=media&token=b82a289a-7ae2-4b47-9c90-ec65d3de72f5)`
+      backgroundImage: `url(https://firebasestorage.googleapis.com/v0/b/esfap-2021.appspot.com/o/Logo%2FESCUDO.jpeg?alt=media&token=58fd81e6-7dc7-4977-92d6-8b917e4f4eaa)`
     }}
   />
  <div> 

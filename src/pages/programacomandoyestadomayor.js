@@ -54,7 +54,7 @@ const programacomandoyestadomayor = () => (
 </header>
 <div className="container">
 
-<img src="https://esfap.edu.pe/images/2017/03/29/a_insigpam.png" alt="Insignia de alto mando"/> 
+<img  width="300px" src="https://esfap.edu.pe/images/2017/03/29/a_insigpcem.png" alt="Insignia de alto mando"/> 
 
 <Tabs defaultActiveKey="1" onChange={callback}>
     <TabPane tab="Inscripción Actualización" key="1">

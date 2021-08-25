@@ -103,10 +103,10 @@ const GaleriaDeDirectoresPage = () => (
   <li><a href="#img42"><img src="https://esfap.edu.pe/images/2017/04/03/direc442.jpg"/></a></li>
   <li><a href="#img43"><img src="https://esfap.edu.pe/images/2017/04/03/direc443.jpg"/></a></li>
   <li><a href="#img44"><img src="https://esfap.edu.pe/images/2017/04/03/direc444.jpg"/></a></li>
-  <li><a href="#img45"><img src="https://esfap.edu.pe/images/2021/02/19/whatsapp-image-2021-02-19-at-12.04.46-2.jpeg"/></a></li>
-  <li><a href="#img46"><img src="https://esfap.edu.pe/images/2021/02/19/whatsapp-image-2021-02-19-at-12.04.45-1.jpeg"/></a></li>
-  <li><a href="#img47"><img src="https://esfap.edu.pe/images/2021/02/19/whatsapp-image-2021-02-19-at-12.04.45.jpeg"/></a></li>
-  <li><a href="#img48"><img src="https://esfap.edu.pe/images/2017/04/03/direc448.jpg"/></a></li>
+  <li><a href="#img45"><img src="https://firebasestorage.googleapis.com/v0/b/esfap-2021.appspot.com/o/directores%2FFoto%20de%20Oscar%20Vasquez.jpg?alt=media&token=8ee2848b-8908-4053-b745-afb85c0329bb"/></a></li>
+  <li><a href="#img46"><img src="https://firebasestorage.googleapis.com/v0/b/esfap-2021.appspot.com/o/directores%2FWhatsApp%20Image%202021-08-18%20at%2011.52.23%20AM.jpeg?alt=media&token=0775d5dd-4f8d-412f-970a-606813371c8a"/></a></li>
+  <li><a href="#img47"><img src="https://firebasestorage.googleapis.com/v0/b/esfap-2021.appspot.com/o/directores%2FWhatsApp%20Image%202021-08-18%20at%2011.52.22%20AM.jpeg?alt=media&token=65f250c9-81aa-4647-afb9-9c1d8d89cfad"/></a></li>
+  <li><a href="#img48"><img src="https://firebasestorage.googleapis.com/v0/b/esfap-2021.appspot.com/o/directores%2FWhatsApp%20Image%202021-08-18%20at%2011.52.22%20AM%20(1).jpeg?alt=media&token=0d9d8a7a-ec1b-41fa-b019-ef87b0ddaaaf"/></a></li>
 </ul>
   
 
@@ -435,34 +435,42 @@ const GaleriaDeDirectoresPage = () => (
 <a title='Cerrar' href="#_"><i class="fas fa-times"></i></a>
 </figure>
 
+
+
+
+
+
+
+
+
+
+
 <figure id="img45" class="lbox bounce">
   <span><a href="#img44" title='Anterior'><i class="fas fa-angle-left"></i></a></span>
-<img title='Cachorrito 3' src="https://esfap.edu.pe/images/2021/02/19/whatsapp-image-2021-02-19-at-12.04.46-2.jpeg" />
+<img title='Cachorrito 3' src="https://firebasestorage.googleapis.com/v0/b/esfap-2021.appspot.com/o/directores%2FFoto%20de%20Oscar%20Vasquez.jpg?alt=media&token=8ee2848b-8908-4053-b745-afb85c0329bb" />
   <span id='right'><a href="#img46" title='Siguiente'><i class="fas fa-angle-right"></i></a></span>
 <a title='Cerrar' href="#_"><i class="fas fa-times"></i></a>
 </figure>
 
 <figure id="img46" class="lbox bounce">
   <span><a href="#img45" title='Anterior'><i class="fas fa-angle-left"></i></a></span>
-<img title='Cachorrito 3' src="https://esfap.edu.pe/images/2021/02/19/whatsapp-image-2021-02-19-at-12.04.45-1.jpeg" />
+<img title='Cachorrito 3' src="https://firebasestorage.googleapis.com/v0/b/esfap-2021.appspot.com/o/directores%2FWhatsApp%20Image%202021-08-18%20at%2011.52.23%20AM.jpeg?alt=media&token=0775d5dd-4f8d-412f-970a-606813371c8a" />
   <span id='right'><a href="#img47" title='Siguiente'><i class="fas fa-angle-right"></i></a></span>
 <a title='Cerrar' href="#_"><i class="fas fa-times"></i></a>
 </figure>
 
 <figure id="img47" class="lbox bounce">
   <span><a href="#img46" title='Anterior'><i class="fas fa-angle-left"></i></a></span>
-<img title='Cachorrito 3' src="https://esfap.edu.pe/images/2021/02/19/whatsapp-image-2021-02-19-at-12.04.45.jpeg" />
+<img title='Cachorrito 3' src="https://firebasestorage.googleapis.com/v0/b/esfap-2021.appspot.com/o/directores%2FWhatsApp%20Image%202021-08-18%20at%2011.52.22%20AM.jpeg?alt=media&token=65f250c9-81aa-4647-afb9-9c1d8d89cfad" />
   <span id='right'><a href="#img48" title='Siguiente'><i class="fas fa-angle-right"></i></a></span>
 <a title='Cerrar' href="#_"><i class="fas fa-times"></i></a>
 </figure>
-
 <figure id="img48" class="lbox bounce">
-  <span><a href="#img37" title='Anterior'><i class="fas fa-angle-left"></i></a></span>
-<img title='Cachorrito 3' src="https://esfap.edu.pe/images/2017/04/03/direc448.jpg" />
+  <span><a href="#img47" title='Anterior'><i class="fas fa-angle-left"></i></a></span>
+<img title='Cachorrito 3' src="https://firebasestorage.googleapis.com/v0/b/esfap-2021.appspot.com/o/directores%2FWhatsApp%20Image%202021-08-18%20at%2011.52.22%20AM%20(1).jpeg?alt=media&token=0d9d8a7a-ec1b-41fa-b019-ef87b0ddaaaf" />
   <span id='right'><a href="#img49" title='Siguiente'><i class="fas fa-angle-right"></i></a></span>
 <a title='Cerrar' href="#_"><i class="fas fa-times"></i></a>
 </figure>
-
 
 
   

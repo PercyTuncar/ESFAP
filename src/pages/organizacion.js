@@ -54,11 +54,15 @@ const Organizacion = () => (
  
 <div className="tabs">
  
+<br/>
+<br/>
+<br/>
+<h2 className="h2"> ORGANIGRAMA</h2>
+<br/>
 
-<h2 className="h2">  ORGANIGRAMA</h2>
 <span className="line"></span>
 <div className="center">
-<img src="https://esfap.edu.pe/images/2020/06/19/organigrama.png"/> 
+<img src="https://firebasestorage.googleapis.com/v0/b/esfap-2021.appspot.com/o/Logo%2FORGANIGRAMA.jpeg?alt=media&token=de9f92f5-c79c-49ce-b31f-a96f07f70c67"/> 
 </div>
 </div>
  

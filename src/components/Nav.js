@@ -6,6 +6,10 @@ import Logo from './Logo'
 import { Icon } from 'rsuite';
 import NosotrosMenu from './NosotrosMenu'
 import ProgramasMenu from './ProgramasMenu'
+import InvestigacionMenu from './InvestigacionMenu'
+import CalidadMenu from './CalidadMenu'
+
+
 import PlataformasVirtualesMenu from './PlataformasVirtualesMenu'
 import PublicacionesMenu from './PublicacionesMenu'
 import {Helmet} from "react-helmet";
@@ -85,6 +89,8 @@ export class Navigation extends Component {
            
             <NosotrosMenu/>
             <ProgramasMenu/>
+            <InvestigacionMenu/>
+            <CalidadMenu/>
             <PlataformasVirtualesMenu/>
             <PublicacionesMenu/>
           

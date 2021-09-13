@@ -13,19 +13,23 @@ import './nosotrosMenu.css'
 
 export default function ProgramasMenu() {
     return (
-        <Menu menuButton={<MenuButton className="header_menu">Programas <Icon icon='angle-down' size="lg" /></MenuButton>}>
-             <SubMenu label="Perfeccionamiento Doctrinarios">
-                <MenuItem href="/programaaltomando">Programa Alto Mando</MenuItem>
-                <MenuItem  href="/programacomandoyestadomayor">Programa Comando y Estado Mayor</MenuItem>
-                <MenuItem  href="/programaestadomayorparaoficiales">Programa Estado Mayor para Oficiales de Servicio</MenuItem>
-                <MenuItem href="/programatactico">Programa Táctico </MenuItem>
+        <Menu menuButton={<MenuButton className="header_menu">PROGRAMAS ACADÉMICOS <Icon icon='angle-down' size="lg" /></MenuButton>}>
+             <SubMenu label="PROGRAMAS PARA PERSONAL DE OFICIALES">
+             <SubMenu label="PERFECCIONAMIENTO DOCTRINARIO">
+                <MenuItem href="/programaaltomando">PROGRAMA ALTO MANDO</MenuItem>
+                <MenuItem  href="/programacomandoyestadomayor">PROGRAMA COMANDO Y ESTADO MAYOR</MenuItem>
+                <MenuItem  href="/programaestadomayorparaoficiales">PROGRAMA ESTADO MAYOR PARA OFICIALES DE SERVICIO</MenuItem>
+                <MenuItem href="/programatactico">PROGRAMA TÁCTICO </MenuItem>
+                <MenuItem href="/programaactualizacion">PROGRAMA ACTUALIZACIÓN </MenuItem>
             </SubMenu>
-            <SubMenu label="Perfeccionamiento Especializado">
-                <MenuItem href="/programasfap">Programas FAP</MenuItem>
-                <MenuItem href="/ConvenioESFAP">Convenio ESFAP</MenuItem>
+            <SubMenu label="PERFECCIONAMIENTO ESPECIALIZADO">
+                <MenuItem href="/programasfap">PROGRAMAS FAP</MenuItem>
+                <MenuItem  href="/ConvenioESFAP">CONVENIOS ESFAP</MenuItem>
             </SubMenu>
-            <MenuItem>Perfeccionamiento de Reclasificación</MenuItem>
-            <MenuItem>Perfeccionamiento a Distancia</MenuItem>
+                <MenuItem href="/programareclasificacion">PROGRAMA DE RECLASIFICACIÓN</MenuItem>
+                <MenuItem  href="/programaadistancia">PERFECCIONAMIENTO A DISTANCIA</MenuItem>
+            </SubMenu>
+            <MenuItem href="/programapublicogeneral">PROGRAMAS PARA PUBLICO EN GENERAL </MenuItem>
         </Menu>
     );
 }

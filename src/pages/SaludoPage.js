@@ -51,7 +51,7 @@ const SaludoPage = () => (
 
     <div class="features-group">
       <div class="features-image"><img src="https://firebasestorage.googleapis.com/v0/b/esfap-2021.appspot.com/o/GRAL%20GARCIA.jpeg?alt=media&token=caa68eef-aa7b-4fac-ad9f-73161ef80751"/></div>
-      <div class="features-text">
+      <div class="features-text texto-justificado">
         <p>
           Bienvenidos a la Escuela Superior de Guerra Aérea, su Escuela. Es un honor para mí asumir la Dirección y un gran reto profesional el poder cumplir esta tarea asignada.
         </p>
@@ -70,7 +70,7 @@ const SaludoPage = () => (
     </div>
   
 
-    <div className="palabras">
+    <div className="palabras texto-justificado">
       <p>
           En ese sentido que exhorto al Personal de Oficiales de planta y oficiales alumnos participantes, así como al personal docente y administrativo, a dar su mayor esfuerzo, a fin de cumplir con los objetivos académicos e institucionales dispuesto por la superioridad y que al final de la labor cumplida veamos reflejado la frase de nuestro emblema “Ad Majorem Patriae Gloriam” (Para Mayor Gloria de la Patria).
           </p>

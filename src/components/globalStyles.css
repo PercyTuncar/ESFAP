@@ -363,3 +363,23 @@ p{
 .rc-menu--animation .rc-menu__item {
   font-size: 14px;
 }
+
+.texto-justificado{
+  text-align: justify;
+}
+.texto-gray p{
+  color: #cacaca;
+}
+.texto-gray h2{
+ margin-top: 15px;
+}
+.descargable img{
+  margin-bottom: 20px;
+}
+.texto-blanco a{ 
+  color: #fff !important;
+}
+.texto-gray li{
+  color: #fff;
+  font-size: 16px;
+}

@@ -4,7 +4,7 @@ import './enlacesDeInteres.css'
 export default function EnlacesDeInteres() {
     return (
         <>
-           <h1 className="video_title">Enlaces de Interes</h1>
+           <h1 className="video_title">Enlaces de Interés</h1>
        <div className="enlaces_container">
             <div class="col-four">
                 <a href="https://portal.concytec.gob.pe/"> <img src="https://esfap.edu.pe/images/2020/01/22/concytec.jpg" alt="MDN"/></a>
@@ -37,6 +37,8 @@ export default function EnlacesDeInteres() {
             <div class="col-four">
                 <a href="https://www.gob.pe/mindef"> <img src="https://esfap.edu.pe/images/2020/01/22/mindef.jpg" alt="MDN"/>  </a>
                 <a href="https://www.esan.edu.pe/"> <img src="https://esfap.edu.pe/images/2021/03/12/esan.png" alt="MDN"/></a>
+                <a href="https://iadc.edu/es/"> <img src="https://firebasestorage.googleapis.com/v0/b/esfap-2021.appspot.com/o/312asd-1.png?alt=media&token=2d2b3e65-f052-4714-9786-cc8c6c49d02f" alt="MDN"/></a>
+                <a href="https://www.gob.pe/conida"> <img src="https://firebasestorage.googleapis.com/v0/b/esfap-2021.appspot.com/o/312d-1.png?alt=media&token=ccb5b3dc-c419-418b-aa71-3f83f0a2b85c" alt="MDN"/></a>
                    
                      
             </div>

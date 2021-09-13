@@ -65,30 +65,39 @@ const ConvenioESFAP = () => (
 
 
 
+<div class="container">
+    <div class="row">
+    <br/>
+          <br/>
+        <div class="col-sm-3">
+        <br/>
+        <br/>
+        <img src="https://firebasestorage.googleapis.com/v0/b/esfap-2021.appspot.com/o/01%7D%2FPERU.jpg?alt=media&token=152e0b3e-5e59-4ed6-9b1e-b9800a423ea3" class="img-fluid" alt="Responsive image"/>
+        <br/>
+        <br/>
+        <img src="https://firebasestorage.googleapis.com/v0/b/esfap-2021.appspot.com/o/01%7D%2FDGAC.png?alt=media&token=0af7ecbb-7589-4dac-9109-6545d30ace1a" class="img-fluid" alt="Responsive image"/>
+      
+        </div>
+        <div class="col-sm-9">
+        <br/>
+        <br/>
+        <div className="programas_container">
+       
+         
+          <h1 className="h1">Formularios</h1>
+          <span class="line2 texto-blanco"></span>
+              <ul className="h1 texto-blanco">
+                  <li><a href="https://forms.gle/9RAcADEFi85jt6Pk6" target="_blank">Formulario de Inscripción</a></li>
+                  <li><a href="https://forms.gle/dAzXKcP2iCcaVw8T9" target="_blank">Formulario de Comprobantes Pago</a></li>
+              </ul>
 
-<div className="programas_container">
- <h1 className="h1">Formularios</h1>
- <span class="line2"></span>
-    <ul className="h1">
-        <li><a href="https://forms.gle/9RAcADEFi85jt6Pk6" target="_blank">Formulario de Inscripción</a></li>
-        <li><a href="https://forms.gle/dAzXKcP2iCcaVw8T9" target="_blank">Formulario de Comprobantes Pago</a></li>
-    </ul>
-
-    <h1 className="h1">CONVENIO ESFAP-DGAC</h1>
-    <span class="line2"></span>
-    <ul className="h1">
-        <li>
-            <a href="https://esfap.edu.pe/images/2021/CONVENIO_DGAC_-_ESFAP_N_001_16-NOV-2020_1_compressed.pdf" target="_blank">Documento Convenio DGAC</a>
-        </li>
-    </ul>
-    <ul className="h1">
-        <li><a href="https://esfap.edu.pe/index.php/component/sppagebuilder/97-srm.html" target="_blank">Gestión de Riesgos (SRM)</a></li>
-        <li><a href="https://esfap.edu.pe/index.php/component/sppagebuilder/96-sms.html" target="_blank">Gestión de la Seguridad Operacional (SMS)</a></li>
-        <li><a href="#" target="_blank">Administración de Recursos de Cabina (CRM)</a></li>
-        <li><a href="https://esfap.edu.pe/index.php/component/sppagebuilder/99-mp-mercancias-peligrosas.html" target="_blank">Mercancías Peligrosas</a></li>
-        <li><a href="#" target="_blank">Auditoria en Gestión de Riesgo</a></li>
-    </ul>
+            
+          </div>
+        </div>
+    </div>
 </div>
+
+
 
 
 

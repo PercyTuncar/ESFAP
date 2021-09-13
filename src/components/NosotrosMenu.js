@@ -19,7 +19,7 @@ import './nosotrosMenu.css'
 
 export default function NosotrosMenu() {
     return (
-        <Menu menuButton={<MenuButton className="header_menu">Nosotros <Icon icon='angle-down' size="lg" /></MenuButton>}>
+        <Menu menuButton={<MenuButton className="header_menu">NOSOTROS <Icon icon='angle-down' size="lg" /></MenuButton>}>
              <SubMenu label="Dirección"> 
                 <MenuItem href="/SaludoPage">Saludo de Directores</MenuItem> 
                 <MenuItem href="/GaleriaDeDirectoresPage">Galería de Directores</MenuItem> 

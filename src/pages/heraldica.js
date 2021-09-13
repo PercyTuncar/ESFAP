@@ -20,6 +20,7 @@ const justificacion = {
 const AnchoImg = {
   width: '90%',
   marginBottom: '40px',
+  padding: '20px'
 };
 
 function callback(key) {
@@ -73,7 +74,7 @@ const Heraldica = () => (
         <div class="col-sm-5">
         <img  style={AnchoImg} src="https://firebasestorage.googleapis.com/v0/b/esfap-2021.appspot.com/o/Logo%2FESCUDO.jpeg?alt=media&token=58fd81e6-7dc7-4977-92d6-8b917e4f4eaa"/>
         </div>
-        <div class="col-sm-7" style={justificacion}>
+        <div class="col-sm-7 texto-justificado" style={justificacion}>
           <p>
           El campo se encuentra cruzado por cuatro rayos dorados, agudos y penetrantes, dirigidos hacia los ángulos del escudo. Indican la vigilancia de los confines de nuestro territorio por las unidades de caza, bombardeo, reconocimiento y transporte. Asimismo éstos cuatro rayos y la espada dividen el campo azul en cinco partes, significando las regiones aéreas la parte inferior del campo está a su vez dividida en tres porciones.<br/>
 
@@ -87,7 +88,7 @@ const Heraldica = () => (
 
         </div>
         <div class="col-sm-12" style={justificacion}>
-        <div className="tabs">
+        <div className="tabs texto-justificado container">
  <p>
    
 
